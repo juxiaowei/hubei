@@ -1,0 +1,86 @@
+@import "normalize.css";
+body, div, span {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-shrink: 0;
+  align-content: flex-start;
+  border: 0 solid black;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+  color: #FFF;
+  font-family: "Avenir Next",
+      "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,
+      Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 24px;
+}
+li,ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  font-weight: 400;
+  color: #FFF;
+}
+
+a:hover {
+  font-weight: 400;
+  color: #DADADA;
+  text-decoration: none;
+}
+.container{
+  height: 100%;
+  flex-direction:row;
+}
+.hubei-left{
+  flex:145 1 0;
+  align-self:stretch;
+  justify-content:center;
+  align-items:center;
+  background-color: rgba(2,112,207,0.8);
+}
+.hubei-left ul{
+}
+.hubei-left li{
+  padding: 15% 0;
+}
+.hubei-right{
+  flex:879 1 0;
+  align-self:stretch;
+  color: #333;
+  background-color: rgba(255,255,255,0.3);
+}
+.hubei-right-bannar{
+  flex:15 1 0;
+  background: #000;
+}
+.hubei-right-content{
+  flex:81 1 0;
+}
+
+
+
+

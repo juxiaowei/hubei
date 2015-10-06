@@ -518,8 +518,8 @@ a:hover {
 }
 .hubei-left ul .icon{
   position: absolute;
-  left: 20px;
-  top: 14px;
+  left: 10%;
+  top: 22%;
 }
 .search-pad{
   position: relative;
@@ -527,8 +527,8 @@ a:hover {
 }
 .search-pad .icon-search{
   position: absolute;
-  right: 20px;
-  top: 10px;
+  right: 13%;
+  top: 22%;
 }
 .search-pad-input{
     -webkit-align-self:center;
@@ -539,12 +539,13 @@ a:hover {
     border: 0px;
     padding: 10px 40px 10px 20px;
     background: #1389ee;
+    border-radius:5%;
 }
 .hubei-left li.active{
   background: #1389ee;
 }
 .hubei-left li{
-  padding-left: 60px;
+  padding-left: 35%;
   position: relative;
   line-height: 58px;
   height: 58px;

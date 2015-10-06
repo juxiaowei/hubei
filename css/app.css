@@ -67,7 +67,7 @@ a:hover {
   flex:19 1 0;
   align-self:stretch;
   background-color: rgba(2,112,207,1);
-  padding-top: 120px;
+  padding-top: 10%;
   overflow: hidden;
 }
 .hubei-left ul .icon{
@@ -103,12 +103,121 @@ a:hover {
   height: 58px;
   font-size: 16px;
 }
+
 .hubei-right{
   flex:109 1 0;
   align-self:stretch;
   color: #333;
   background-color: rgba(255,255,255,0.3);
 }
+/*fouce*/
+
+.yx-rotaion {
+    overflow: hidden
+}
+
+.yx-rotaion-btn,.yx-rotaion-title,.yx-rotation-focus,.yx-rotation-t,.yx-rotaion-btn {
+    position: absolute
+}
+
+.yx-rotation-title {
+  color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #000;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+.yx-rotation-t {
+    color: #fff;
+    font-size: 16px;
+    z-index: 2;
+    bottom: 0;
+    left: 10px;
+    line-height: 40px;
+     text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width: 250px;
+}
+
+.yx-rotation-t a{
+  color: #fff;
+}
+
+.yx-rotation-focus span,.yx-rotaion-btn span {
+    background: url("http://www.jurong.gov.cn/xhtml/images/focus/ico.png") no-repeat;
+    display: block
+}
+
+.yx-rotation-focus {
+    display: none;
+    height: 40px;
+    line-height: 40px;
+    right: 20px;
+    bottom: 0;
+    z-index: 2
+}
+
+.yx-rotation-focus span {
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    top: 14px;
+    cursor: pointer;
+    background-position: -24px -126px;
+    text-indent: -9999px
+}
+
+.yx-rotaion-btn {
+    width: 100%;
+    height: 41px;
+    top: 50%;
+    margin-top: -20px
+}
+
+.yx-rotaion-btn span {
+    width: 41px;
+    height: 41px;
+    cursor: pointer;
+    opacity: 0.3;
+    position: relative
+}
+
+.yx-rotaion-btn .left_btn {
+    background-position: -2px -2px;
+    float: left;
+    left: 10px
+}
+
+.yx-rotaion-btn .right_btn {
+    background-position: -2px -49px;
+    float: right;
+    right: 10px
+}
+
+.yx-rotaion-btn span.hover {
+    opacity: 0.8
+}
+
+.yx-rotation-focus span.hover {
+    background-position: -10px -126px
+}
+
+.rotaion_list {
+    width: 440px;
+    height: 340px;
+    overflow: hidden
+}
+
 .hubei-right-bannar{
   flex:15 1 0;
 }
@@ -119,6 +228,66 @@ a:hover {
 .hubei-right-content-left{
   padding-top: 30px;
   padding-left: 25px;
+}
+.hubei-xxgk{
+  padding-top: 20px;
+}
+.xxgk-list-title-pad ul{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
+.xxgk-list-title-pad li{
+  width: 30%;
+  margin-top: 15px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background: #d4ebff;
+  margin-right: 5%;
+}
+.xxgk-list-title-pad li.active{
+  background: rgba(2,112,207,1);
+}
+.xxgk-list-title-pad li.active a{
+  color: #fff;
+}
+.xxgk-list-title-pad li:nth-child(3n){
+  margin-right: 0%;
+}
+.xxgk-list-title-pad li a{
+  color: #004b8b;
+}
+.xxgk-title-pad{
+  font-size: 22px;
+  color: #1884d9;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #ccc;
+}
+.xxgk-list-pad{
+  margin-top: 24px;
+}
+.tab-pad{
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  overflow: hidden;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 10px;
+}
+.tab-pad li.active{
+  border: solid 1px #ccc;
+  background: #000;
+}
+.tab-pad li{
+  display: inline-block;
+  padding: 0 10px;
+}
+.xxgk-list-pad .list-pad li{
+  line-height: 34px;
+}
+.xxgk-list-pad .list-pad li a{
+  color: #333;
 }
 .hubei-right-content-right{
   flex:56 1 0;

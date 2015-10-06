@@ -55,6 +55,7 @@ a:hover {
 .container{
   height: 100%;
   flex-direction:row;
+  background-color: rgba(2,112,207,1);
 }
 .icon {
   display: inline-block;
@@ -108,7 +109,7 @@ a:hover {
   flex:109 1 0;
   align-self:stretch;
   color: #333;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255,255,255,1);
 }
 /*fouce*/
 
@@ -143,7 +144,7 @@ a:hover {
      text-overflow: ellipsis;
     overflow:hidden;
     white-space:nowrap;
-    width: 80%;
+    width: 95%;
 }
 
 .yx-rotation-t a{
@@ -223,9 +224,9 @@ a:hover {
 .hubei-right-content{
   flex:81 1 0;
   flex-direction:row;
+  padding-top: 30px;
 }
 .hubei-right-content-left{
-  padding-top: 30px;
   padding-left: 25px;
 }
 .hubei-xxgk{
@@ -237,13 +238,13 @@ a:hover {
   flex-direction:row;
 }
 .xxgk-list-title-pad li{
-  width: 30%;
+  width: 32%;
   margin-top: 15px;
   height: 42px;
   line-height: 42px;
   text-align: center;
   background: #d4ebff;
-  margin-right: 5%;
+  margin-right: 2%;
 }
 .xxgk-list-title-pad li.active{
   background: rgba(2,112,207,1);
@@ -270,13 +271,18 @@ a:hover {
   height: 38px;
   line-height: 38px;
   font-size: 18px;
-  overflow: hidden;
   border-bottom: solid 1px #ccc;
   margin-bottom: 10px;
 }
 .tab-pad li.active{
   border: solid 1px #ccc;
-  background: #000;
+  background: #fff;
+  height: 37px;
+  border-bottom: solid 1px #fff;
+}
+
+.tab-pad li:nth-child(1){
+  margin-left: 3%;
 }
 .tab-pad li{
   display: inline-block;
@@ -290,7 +296,25 @@ a:hover {
 }
 .hubei-right-content-right{
   flex:56 1 0;
+  padding-left: 20px;
 }
+.news-pad a{
+  color: #333;
+}
+.news-pad .title-tab{
+  flex-direction:row;
+  border-bottom: solid 1px #ccc;
+}
+.news-pad .title-tab a{
+  line-height: 40px;
+  height: 40px;
+  font-size: 22px;
+  padding: 0px 10px;
+}
+.news-pad .title-tab a:nth-child(1){
+  color: #1884d9
+}
+
 
 
 

@@ -64,17 +64,26 @@ a:hover {
   fill: currentColor;
   font-size: 24px;
 }
-.hubei-left{
-  flex:19 1 0;
-  align-self:stretch;
-  background-color: rgba(2,112,207,1);
-  padding-top: 10%;
-  overflow: hidden;
+@media (min-width:768px){
+
+  .hubei-left{
+    flex:19 1 0;
+    align-self:stretch;
+    background-color: rgba(2,112,207,1);
+    padding-top: 10%;
+    overflow: hidden;
+  }
+  .hubei-left ul .icon{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+  }
 }
-.hubei-left ul .icon{
-  position: absolute;
-  left: 10%;
-  top: 22%;
+
+@media (max-width:768px){
+  .hubei-left{
+    display: none;
+  }
 }
 .search-pad{
   position: relative;
@@ -338,6 +347,7 @@ a:hover {
   display: flex;
   line-height: 32px;
   flex-direction:row;
+  position: relative;
   align-items:center;
 }
 
@@ -347,6 +357,13 @@ a:hover {
   height: 4px;
   background: #666;
   margin-right: 5px;
+}
+
+.news-list-detail .list-pad i{
+  font-style: normal;
+  position: absolute;
+  right: 2%;
+
 }
 .news-list-detail .title a{
   color: black;
@@ -363,6 +380,9 @@ a:hover {
   height: 95px;
   overflow: hidden;
   width: 25%;
+}
+.online-zxfw .zxfw-list li a{
+  color: #333;
 }
 .online-zxfw .zxfw-list p{
   font-size: 18px;
@@ -383,7 +403,60 @@ a:hover {
   margin-top: 0px;
 }
 
-
+.hubei-right-content .list-pad{
+  flex:1 0 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.hubei-right-content .list-pad dl{
+  padding: 20px;
+  margin: 0px;
+  border-bottom: solid 1px #ccc;
+}
+.hubei-right-content .list-pad dt span{
+  color: #2289da;
+  margin-right: 10px;
+}
+.hubei-right-content .list-pad dt{
+  display: flex;
+  flex-direction:row;
+  font-size: 18px;
+  line-height: 34px;
+  position: relative;
+}
+.hubei-right-content .list-pad dt i{
+  color: #2289da;
+  position: absolute;
+  right: 3%;
+  font-style: normal;
+}
+.hubei-right-content .list-pad dd{
+  margin-left: 0px;
+  line-height: 24px;
+  color: #909090;
+}
+.hubei-right-content .list-pad a{
+  color: #333;
+}
+/*content*/
+.content-title{
+  font-size: 20px;
+  line-height: 48px;
+}
+.content-title,.content-detail{
+  padding-left: 20px;
+}
+.content-detail{
+  color: #999;
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 20px;
+}
+#content{
+  padding: 20px;
+  font-size: 18px;
+  line-height: 34px;
+  color: #666;
+}
 
 
 

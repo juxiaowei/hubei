@@ -596,7 +596,7 @@ a:hover {
      text-overflow: ellipsis;
     overflow:hidden;
     white-space:nowrap;
-    width: 250px;
+    width: 80%;
 }
 
 .yx-rotation-t a{
@@ -666,8 +666,7 @@ a:hover {
 }
 
 .rotaion_list {
-    width: 440px;
-    height: 340px;
+  height: 285px;
     overflow: hidden
 }
 

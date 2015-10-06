@@ -481,6 +481,7 @@ li,ul{
 a {
   font-weight: 400;
   color: #FFF;
+  text-decoration: none;
 }
 
 a:hover {
@@ -496,34 +497,45 @@ a:hover {
       -ms-flex-direction:row;
           flex-direction:row;
 }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
 .hubei-left{
-  -webkit-box-flex:145;
-  -webkit-flex:145 1 0;
-      -ms-flex:145 1 0;
-          flex:145 1 0;
+  -webkit-box-flex:19;
+  -webkit-flex:19 1 0;
+      -ms-flex:19 1 0;
+          flex:19 1 0;
   -webkit-align-self:stretch;
       -ms-flex-item-align:stretch;
           align-self:stretch;
-  -webkit-box-pack:center;
-  -webkit-justify-content:center;
-      -ms-flex-pack:center;
-          justify-content:center;
-  -webkit-box-align:center;
-  -webkit-align-items:center;
-      -ms-flex-align:center;
-          align-items:center;
-  background-color: rgba(2,112,207,0.8);
+  background-color: rgba(2,112,207,1);
+  padding-top: 120px;
+  overflow: hidden;
 }
-.hubei-left ul{
+.hubei-left .icon{
+  font-size: 24px;
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+.hubei-left li.active{
+  background: #1389ee;
 }
 .hubei-left li{
-  padding: 15% 0;
+  padding-left: 60px;
+  position: relative;
+  line-height: 58px;
+  height: 58px;
+  font-size: 16px;
 }
 .hubei-right{
-  -webkit-box-flex:879;
-  -webkit-flex:879 1 0;
-      -ms-flex:879 1 0;
-          flex:879 1 0;
+  -webkit-box-flex:109;
+  -webkit-flex:109 1 0;
+      -ms-flex:109 1 0;
+          flex:109 1 0;
   -webkit-align-self:stretch;
       -ms-flex-item-align:stretch;
           align-self:stretch;
@@ -535,13 +547,27 @@ a:hover {
   -webkit-flex:15 1 0;
       -ms-flex:15 1 0;
           flex:15 1 0;
-  background: #000;
 }
 .hubei-right-content{
   -webkit-box-flex:81;
   -webkit-flex:81 1 0;
       -ms-flex:81 1 0;
           flex:81 1 0;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:row;
+      -ms-flex-direction:row;
+          flex-direction:row;
+}
+.hubei-right-content-left{
+  padding-top: 30px;
+  padding-left: 25px;
+}
+.hubei-right-content-right{
+  -webkit-box-flex:56;
+  -webkit-flex:56 1 0;
+      -ms-flex:56 1 0;
+          flex:56 1 0;
 }
 
 

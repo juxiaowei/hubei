@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <!-- 强制 IE 遵循现代标准 -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>湖北出入境检验局检疫局1</title>
+    <title>湖北出入境检验局检疫局</title>
     <meta name="description" content="湖北出入境检验局检疫局">
     <meta name="keyword" content="湖北出入境检验局检疫局">
     <!-- 在移动端禁用缩放。对响应式设计有用。 -->
@@ -12,13 +12,20 @@
     <link rel="stylesheet" href="bundle/app.css">
 </head>
 <body>
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	<symbol id="icon-home3" viewBox="0 0 1024 1024">
+	<path class="path1" d="M1024 608l-192-192v-288h-128v160l-192-192-512 512v32h128v320h320v-192h128v192h320v-320h128z"></path>
+</symbol>
+</defs>
+</svg>
 	<div class="container">
 		<div class="hubei-left">
 			<ul>
-				<li>网站首页</li>
-				<li>信息公开</li>
-				<li>在线服务</li>
-				<li>公众参与</li>
+				<li class="active"><svg class="icon icon-home3"><use xlink:href="#icon-home3"></use></svg><a href="" target="_blank">网站首页</a></li>
+				<li><svg class="icon icon-home3"><use xlink:href="#icon-home3"></use></svg><a href="" target="_blank">信息公开</a></li>
+				<li><svg class="icon icon-home3"><use xlink:href="#icon-home3"></use></svg><a href="" target="_blank">在线服务</a></li>
+				<li><svg class="icon icon-home3"><use xlink:href="#icon-home3"></use></svg><a href="" target="_blank">公众参与</a></li>
 			</ul>
 		</div>
 		<div class="hubei-right">
@@ -26,9 +33,17 @@
 				<img src="images/bannar.jpg" height="100%" width="100%" alt="湖北出入境检验局检疫局">
 			</div>
 			<div class="hubei-right-content">
-				content
+				<div class="hubei-right-content-left">
+					<div class="hubei-focus">top</div>
+					<div class="hubei-xxgk">bottom</div>
+				</div>
+				<div class="hubei-right-content-right">
+					right
+				</div>
 			</div>
 		</div>
 	</div>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

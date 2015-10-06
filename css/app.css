@@ -44,6 +44,7 @@ li,ul{
 a {
   font-weight: 400;
   color: #FFF;
+  text-decoration: none;
 }
 
 a:hover {
@@ -55,30 +56,54 @@ a:hover {
   height: 100%;
   flex-direction:row;
 }
-.hubei-left{
-  flex:145 1 0;
-  align-self:stretch;
-  justify-content:center;
-  align-items:center;
-  background-color: rgba(2,112,207,0.8);
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
 }
-.hubei-left ul{
+.hubei-left{
+  flex:19 1 0;
+  align-self:stretch;
+  background-color: rgba(2,112,207,1);
+  padding-top: 120px;
+  overflow: hidden;
+}
+.hubei-left .icon{
+  font-size: 24px;
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+.hubei-left li.active{
+  background: #1389ee;
 }
 .hubei-left li{
-  padding: 15% 0;
+  padding-left: 60px;
+  position: relative;
+  line-height: 58px;
+  height: 58px;
+  font-size: 16px;
 }
 .hubei-right{
-  flex:879 1 0;
+  flex:109 1 0;
   align-self:stretch;
   color: #333;
   background-color: rgba(255,255,255,0.3);
 }
 .hubei-right-bannar{
   flex:15 1 0;
-  background: #000;
 }
 .hubei-right-content{
   flex:81 1 0;
+  flex-direction:row;
+}
+.hubei-right-content-left{
+  padding-top: 30px;
+  padding-left: 25px;
+}
+.hubei-right-content-right{
+  flex:56 1 0;
 }
 
 

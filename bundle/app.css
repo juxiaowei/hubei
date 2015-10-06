@@ -502,6 +502,7 @@ a:hover {
   width: 1em;
   height: 1em;
   fill: currentColor;
+  font-size: 24px;
 }
 .hubei-left{
   -webkit-box-flex:19;
@@ -515,11 +516,29 @@ a:hover {
   padding-top: 120px;
   overflow: hidden;
 }
-.hubei-left .icon{
-  font-size: 24px;
+.hubei-left ul .icon{
   position: absolute;
   left: 20px;
   top: 14px;
+}
+.search-pad{
+  position: relative;
+  text-align: right;
+}
+.search-pad .icon-search{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.search-pad-input{
+    -webkit-align-self:center;
+        -ms-flex-item-align:center;
+            align-self:center;
+    width: 64px;
+    outline: none;;
+    border: 0px;
+    padding: 10px 40px 10px 20px;
+    background: #1389ee;
 }
 .hubei-left li.active{
   background: #1389ee;

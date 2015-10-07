@@ -228,15 +228,16 @@ a:hover {
     background-position: -10px -126px
 }
 
-.rotaion_list {
-  height: 285px;
-    overflow: hidden
-}
 @media (min-width: 768px){
 
 .rotaion_list img{
   width: 400px;
   height: 285px;
+}
+
+.rotaion_list {
+  height: 285px;
+  overflow: hidden
 }
 .hubei-right-bannar{
     flex:15 1 0;
@@ -263,6 +264,10 @@ a:hover {
   .rotaion_list img{
     width: 100%;
     height: 255px;
+  }
+  .rotaion_list {
+    height: 255px;
+    overflow: hidden
   }
   .search-phone{
     background: #e0e0e0;
